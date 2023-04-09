@@ -4,5 +4,6 @@ public class TimeConvertor {
     public void convert(float minutes) {
         minutes = 65;
         float seconds = minutes * 60;
+        System.out.println(seconds);
     }
 }
